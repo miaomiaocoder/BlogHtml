@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>联系我</title>
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<script src="//cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+   <script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<style>
+  body {
+      position: relative;
+       padding-top:70px;
+  }
+  ul.nav-pills {
+      top: 20px;
+      position: fixed;
+  }
+    }
+  }
+  </style>
+</head>
+<body background="images/background1.jpg">
+<div class="container">
+	<div class="row clearfix">
+			<div class="col-md-12 column">
+				<nav class="navbar navbar-fixed-top">
+					<button class="btm btn-lg btn-default"><a href="index.html">首页</a></button>
+					<button class="btm btn-lg btn-default"><a href="diary.html">日志</a></button>
+					<button class="btm btn-lg btn-default"><a href="album.html">相册</a></button>
+					<button class="btm btn-lg btn-default"><a href="about.html">关于我</a></button>
+					<button class="btm btn-lg btn-success"><a href="callme.html">联系我</a></button>
+				</nav>
+			</div>
+	</div>
+	<form method="post" action="#">
+			
+				<big>
+				<p>
+					<label for="name">姓名：</label>
+					<input name="name" id="name" type="text">
+				</p>
+				<p>
+					<label for="email">邮箱：</label>
+					<input name="email" id="email" type="email">
+				</p>
+				<p>
+					<label for="phone">电话：</label>
+					<input name="phone" id="phone" type="phone">
+				</p>
+				<p>
+					<label for="phone">方便电话的时间：</label>
+					<input name="callTime" id="callTime" type="radio">早上
+					<input name="callTime" id="callTime" type="radio">下午
+					<input name="callTime" id="callTime" type="radio">晚上
+				</p>
+				<p>
+					<label for="address">通信地址：</label>
+					<input name="address"  list="address">
+					<datalist id="address">
+						<option value="上海">
+						<option value="成都">
+						<option value="广州">
+						<option value="深圳">
+						<option value="北京">						
+					</datalist>
+				</p>
+			</big>
+
+				<input type="submit" value="提交">
+
+	    	</form>	
+	    	<button class="btm btn-lg btn-default"><a = href="location.html">获取定位<a></button>
+</div>
+</body>
+</html>

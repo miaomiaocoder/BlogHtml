@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://v3.bootcss.com/examples/blog/# -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://v3.bootcss.com/favicon.ico">
+
+    <title>任振华第一篇日志</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./Blog Template for Bootstrap_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./Blog Template for Bootstrap_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./Blog Template for Bootstrap_files/blog.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./Blog Template for Bootstrap_files/ie-emulation-modes-warning.js.下载"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item active" href="index.html">主页</a>
+          <a class="blog-nav-item" href="diary.html">日志</a>
+          <a class="blog-nav-item" href="album.html">相册</a>
+          <a class="blog-nav-item" href="about.html">关于我</a>
+          <a class="blog-nav-item" href="callme.html">联系我</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title"></h1>
+        <p class="lead blog-description"></p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">任振华第一篇日志</h2>
+            <p class="blog-post-meta">January 1, 2019 by <a href="about.html">任振华</a></p>
+
+            <p>该篇日志展示了bootstrap的排版方式</p>
+            <hr>
+            <p>Cum sociis natoque penatibus et magnis 
+            可以上这个网站学习编程<a href="https://how2j.cn/">how2j.cn</a> 
+            nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+            <blockquote>
+              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </blockquote>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <h2>Heading</h2>
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+            <h3>Sub-heading</h3>
+            <p>这是一个最简单的加法器结构化的思想
+            需要实现一个加法器：在这个加法器中，已经保存了被加数；现在需要传递加数给这个加法器，以让其返回加法计算结果。
+            结构化的基本思路：用一个结构体来保存被加数，然后再外带一个加法函数 </p>
+            <pre><code>#include "iostream"
+
+            using namespace std;
+
+            struct SLAugend
+            {
+                int iAugend;
+            };
+
+            int Add(struct SLAugend *pSLAugend, int iAddend)
+            {
+                return pSLAugend->iAugend + iAddend;
+            }
+
+            int main()
+            {
+                struct SLAugend augend;
+    
+            augend.iAugend = 2;
+    
+            cout << Add(&augend, 5) << endl;
+
+            return 0;
+            }</code></pre>
+            <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+            <h3>Sub-heading</h3>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <ul>
+              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+              <li>Donec id elit non mi porta gravida at eget metus.</li>
+              <li>Nulla vitae elit libero, a pharetra augue.</li>
+            </ul>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+            <ol>
+              <li>Vestibulum id ligula porta felis euismod semper.</li>
+              <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+              <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+            </ol>
+            <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+          </div>
+          <nav>
+            <ul class="pager">
+              <li><a href="#">Previous</a></li>
+              <li><a href="article2.html">Next</a></li>
+            </ul>
+          </nav> 
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <!-- <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p> -->
+            <p>这篇日志展示了bootstrap文本排版方式，包括简单的两列式博客布局，还包含了自定义的导航、页头、分类等元素。文中还给出了cpp加法器结构化思想编程的方式</p>
+          </div>
+          <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+              <li><a href="article1.html">任振华的第一篇日志</a></li>
+              <li><a href="article2.html">放一个视频在主页上</a></li>
+              <li><a href="article3.html">王者荣耀表格</a></li>
+              <li><a href="article4.html">任振华的第四篇日志</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module">
+            <h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="https://github.com/renzhenhua">github</a></li>
+              <li><a href="https://user.qzone.qq.com/2452503780/infocenter">qqzone</a></li>
+              <li><a href="https://www.weibo.com/login.php/">weibo</a></li>
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+      <p>Blog template built for <a href="http://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+      <p>
+        <a href="article1.html">Back to top</a>
+      </p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./Blog Template for Bootstrap_files/jquery.min.js.下载"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./Blog Template for Bootstrap_files/bootstrap.min.js.下载"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./Blog Template for Bootstrap_files/ie10-viewport-bug-workaround.js.下载"></script>
+  
+
+</body></html>

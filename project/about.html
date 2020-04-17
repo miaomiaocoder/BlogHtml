@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<script src="https://how2j.cn/study/js/jquery/2.0.0/jquery.min.js"></script>
+<link href="https://how2j.cn/study/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+<script src="https://how2j.cn/study/js/bootstrap/3.3.6/bootstrap.min.js"></script>
+<body>
+<style>
+   body {
+            padding-top:70px;
+      }
+p{
+
+  margin-left:10px;
+  margin-top:10px;
+}
+p{
+   color: black;
+}
+</style>
+<body background="images/background3.jpg">
+   <div class="col-md-12 column">
+            <nav class="navbar navbar-fixed-top">
+               <button class="btm btn-lg btn-default"><a href="index.html">首页</a></button>
+               <button class="btm btn-lg btn-default"><a href="diary.html">日志</a></button>
+               <button class="btm btn-lg btn-default"><a href="album.html">相册</a></button>
+               <button class="btm btn-lg btn-success"><a href="about.html">关于我</a></button>
+               <button class="btm btn-lg btn-default"><a href="callme.html">联系我</a></button>
+         </nav>
+         </div>
+      </div>
+   </body>
+      <div>
+<ul id="myTab"  class="nav nav-tabs">
+   <li class="active">
+      <a href="#data1" data-toggle="tab">
+         <big>教育背景</big>
+      </a>
+   </li>
+   <li><a href="#data2"data-toggle="tab"><big>个人特质</big></a></li>
+   <li class="dropdown">
+      <a href="#" id="myTabDrop1" class="dropdown-toggle" 
+         data-toggle="dropdown"><big>其他</big> 
+         <b class="caret"></b>
+      </a>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+         <li><a href="#data3" tabindex="-1" data-toggle="tab"><big>看过的书</big></a></li>
+         <li><a href="#data4" tabindex="-1" data-toggle="tab"><big>家乡</big></a></li>
+      </ul>
+   </li>
+</ul>
+<div id="myTabContent" class="tab-content">
+   <div class="tab-pane fade in active" id="data1">
+      <div class="alert alert-info" role="alert">
+      <p><big>本科生</big></p>
+      <p><big>电子科技大学</big></p>
+      <p><big>计算机学院</big></p>
+      <p><big>数据科学与大数据专业</big></p>
+      <p class="blog-post-meta"><big>2017.9-2021.6</big></p>
+   </div>
+   </div>
+   <div class="tab-pane fade" id="data2">
+      <div class="alert alert-info" role="alert">
+         <p><big>喜欢跑步</big></p>
+         <p><big>参加过多次半程马拉松</big></p>
+         <p><big>喜欢编程</big></p>
+         <p><big>能够使用c++,c,python,java</big></p> 
+      </div>
+   </div>
+   <div class="tab-pane fade" id="data3">
+      <div class="alert alert-info" role="alert">
+         <p><big><b>武侠小说</b>：金庸，古龙的武侠小说我特别喜欢，看过所有金庸的小说</big></p>
+         <p><big><b>侦探小说</b>
+         ：看过福尔摩斯探案集以及东野圭吾的小说，最喜欢其中的《白夜行》
+         </big></p>
+      </div>
+   </div>
+   <div class="tab-pane fade" id="data4">
+      <div class="alert alert-info" role="alert">
+         <p><big>我的家乡是山西省吕梁市中阳县</big></p>
+         <p><big>那里剪纸艺术发达，被称为“剪纸艺术之乡”</big></p>
+      </div>
+   </div>
+</div>
+
+<div style="height:200px"></div>
+</div>
+</html>
